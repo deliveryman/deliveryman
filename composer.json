@@ -3,7 +3,8 @@
 	"version" : "0.1.0-dev",
 	"require" : {
 		"illuminate/remote" : "~4.2",
-		"symfony/console" : "~2.5"
+		"symfony/console" : "~2.5",
+		"symfony/finder" : "~2.5"
 	},
 	"autoload" : {
 		"psr-0" : {
