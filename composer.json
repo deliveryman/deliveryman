@@ -4,12 +4,25 @@
 	"require" : {
 		"illuminate/remote" : "~4.2",
 		"symfony/console" : "~2.5",
-		"symfony/finder" : "~2.5"
+		"symfony/finder" : "~2.5",
+		"symfony/config" : "~2.5",
+		"symfony/yaml" : "~2.5",
+		"symfony/event-dispatcher" : "~2.5",
+		"symfony/stopwatch" : "~2.5"
 	},
 	"autoload" : {
 		"psr-0" : {
 			"Deliveryman" : "src"
 		}
 	},
-	"description" : "Supercharged deployment tool"
+	"description" : "Supercharged deployment tool",
+	"authors" : [{
+			"name" : "Alexander Sergeychik",
+			"email" : "alexander.seregychik@gmail.com",
+			"role" : "Developer"
+		}
+	],
+	"keywords" : [
+		"deployment"
+	]
 }
